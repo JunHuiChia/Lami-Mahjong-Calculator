@@ -1,0 +1,70 @@
+html{
+    padding: 1rem;
+}
+
+body{
+    display: grid;
+    color: white;
+    background-color: black;
+}
+
+.player, .total-score{
+    margin: 5px;
+}
+
+.player input{
+    width: 4rem;
+}
+
+.player span{
+    font-weight: 700;
+}
+
+.submit input{
+    width: 5rem;
+}
+
+.joker{
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.joker label{
+    margin-right: 1.6rem;
+}
+
+.score{
+    margin-top: 2rem;
+}
+
+.player1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.player2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.player3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.player4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.submit{
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.total-score{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.total-score span{
+    font-weight: 700;
+}
+
